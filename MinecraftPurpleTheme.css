@@ -16,3 +16,12 @@ div.App___StyledDiv-sc-2l91w7-0.fnfeQw {
   background-color: transparent;
 }
 
+html::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value (last parameter) to make it darker or lighter */
+}
